@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://ВАША_НАЗВА_БАКЕТА --exclude ".git/*" --exclude ".github/*"
+          aws s3 sync . s3://epamlab4 --exclude ".git/*" --exclude ".github/*"
