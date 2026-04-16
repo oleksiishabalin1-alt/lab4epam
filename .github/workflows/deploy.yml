@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://epamlab4 --exclude ".git/*" --exclude ".github/*"
+          aws s3 sync . s3://cmtr-jnqql9a6-bucket-1776351598 --exclude ".git/*" --exclude ".github/*"
